@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_filter_world_label</item>
+        <item>@string/settings_filter_science_label</item>
+        <item>@string/settings_filter_technology_label</item>
+        <item>@string/settings_filter_business_label</item>
+        <item>@string/settings_filter_environment_label</item>
+        <item>@string/settings_filter_sport_label</item>
+        <item>@string/settings_filter_culture_label</item>
+        <item>@string/settings_filter_games_label</item>
+        <item>@string/settings_filter_lifeandstyle_label</item>
+        <item>@string/settings_filter_fashion_label</item>
+        <item>@string/settings_filter_travel_label</item>
+    </string-array>
+
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_filter_world_value</item>
+        <item>@string/settings_filter_science_value</item>
+        <item>@string/settings_filter_technology_value</item>
+        <item>@string/settings_filter_business_value</item>
+        <item>@string/settings_filter_environment_value</item>
+        <item>@string/settings_filter_sport_value</item>
+        <item>@string/settings_filter_culture_value</item>
+        <item>@string/settings_filter_games_value</item>
+        <item>@string/settings_filter_lifeandstyle_value</item>
+        <item>@string/settings_filter_fashion_value</item>
+        <item>@string/settings_filter_travel_value</item>
+    </string-array>
+</resources>

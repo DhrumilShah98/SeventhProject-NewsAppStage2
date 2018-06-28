@@ -1,0 +1,19 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <ListPreference
+        android:defaultValue="@string/settings_filter_default"
+        android:entries="@array/settings_order_by_labels"
+        android:entryValues="@array/settings_order_by_values"
+        android:key="@string/settings_filter_key"
+        android:title="@string/settings_filter_label" />
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_display_entries_default"
+        android:inputType="numberSigned"
+        android:key="@string/settings_display_entries_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_display_entries_label" />
+
+</PreferenceScreen>
